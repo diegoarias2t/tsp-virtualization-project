@@ -101,6 +101,6 @@ b. Import the MongoDB dashboard.
 ```
 7. It has been a long process. But at this moment we are already able to visualize the dashboard of our database.
 
-
+![](assets/mongodb-dashboard.gif)
 
 ### Voilà!
