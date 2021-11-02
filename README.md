@@ -7,7 +7,7 @@
 3. Minikube
 4. Kubectl
 ### For advanced project
-Same requirements for the basic project and some knowledge about Grafana and Prometheus.
+> Same requirements for the basic project and some knowledge about Grafana and Prometheus.
 
 ## Installation
-It depends if you are interested in the basic project or the advanced one. Check the readme file in the project that you are interested.
+> It depends if you are interested in the basic project or the advanced one. Check the readme file in the project that you are interested.
