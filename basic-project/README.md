@@ -33,8 +33,18 @@ kubectl apply -f basic-mongodb/
 Make sure the deployment is running correctly.
 
 2. Get the information about the namespace in which you are working. In this case database.
+
 ```bash
 kubectl get all -n database
 ```
 
 ![](assets/kubectl-getall.gif)
+
+After making sure that our PODs and deployments are up, we can use our NodePort to access our external service ( mongo-express ).
+
+3. Using minikube to access our NodePort.
+
+```bash
+minikube service -n database tsp-mongoexpress-service
+```
+![](assets/minikube-service.gif)
