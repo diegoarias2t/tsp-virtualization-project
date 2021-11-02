@@ -19,7 +19,9 @@ I am not going to explain here how each of the files for the deployment works (c
 6. Mongo-express deployment
 7. Mongo-express NodePort service
 
-2. We can apply all the files at the same time using:
+We can apply all the files at the same.
+
+2. Apply all deployment files
 ```bash
 kubectl apply -f basic-mongodb/
 ```
