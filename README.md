@@ -9,5 +9,5 @@ Final project designed to implement the different topics learned throughout the 
 ### For advanced project
 Same requirements for the basic project and some knowledge about Grafana and Prometheus.
 
-## Instalation
+## Installation
 It depends if you are interested in the basic project or the advanced one. Check the readme file in the project that you are interested.
