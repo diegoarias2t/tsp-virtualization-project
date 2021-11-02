@@ -27,3 +27,12 @@ kubectl apply -f basic-mongodb/
 ```
 
 ![](assets/kubectl-apply.gif)
+
+Make sure the deployment is running correctly.
+
+2. Get the information about the namespace in which you are working. In this case database.
+```bash
+kubectl get all -n database
+```
+
+![](assets/kubectl-getall.gif)
