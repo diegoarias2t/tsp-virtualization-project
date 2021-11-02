@@ -1,5 +1,5 @@
 <p align="center">
-<img src=tsp-ipparis.png width="755" height="634">
+<img src=tsp-ipparis.png>
 </p>
 
 # TSP Virtualization Project
