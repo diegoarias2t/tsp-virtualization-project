@@ -14,7 +14,8 @@
 > Regarding the whole monitoring section, I am using Prometheus and Grafana as previously mentioned.
 Prometheus is the receiver of the metrics to store them within its database and then we use graphana to interpret and graph this data. I found the difference that to implement Prometheus within Kubernetes it is necessary to first implement a Prometheus-operator, which is in charge of controlling and orchestrating all the ServiceMonitors to make the data be transferred to Prometheus. All the implementations of this section are being done based on crds (operators), these operators are necessary to carry out the implementation of everything that the namespace monitoring will contain.
 
-> I'm not going to go into much detail on what each Prometheus and Grafana file contains because it's not part of the project (and also because it took me about two weeks to understand most of them).\\
+> I'm not going to go into much detail on what each Prometheus and Grafana file contains because it's not part of the project (and also because it took me about two weeks to understand most of them).\
+\
 
 <p align="center">
 <img src=assets/advanced-project-diagram.png width="755" height="634">
