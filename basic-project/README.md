@@ -1,8 +1,10 @@
 # Basic mongodb project
 In the basic project we are going to set up a MongoDB environment and manage the database using Mongo-express.
+
 <p align="center">
 <img src=assets/basic-project-diagram.png>
 </p>
+
 ## Installation
 In this scenario, it is not so necessary to have so many resources, but I always start my minkube with assigned resources to know how much I have to work with.
 
@@ -49,4 +51,4 @@ minikube service -n database tsp-mongoexpress-service
 ```
 ![](assets/minikube-service.gif)
 
-Voilà!
+### Voilà!
