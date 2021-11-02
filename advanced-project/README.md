@@ -17,7 +17,7 @@ Prometheus is the receiver of the metrics to store them within its database and 
 I'm not going to go into much detail on what each Prometheus and Grafana file contains because it's not part of the project (and also because it took me about two weeks to understand most of them).
 
 <p align="center">
-<img src=assets/advanced-project-diagram.png>
+<img src=assets/advanced-project-diagram.png =250x250>
 </p>
 
 ## Installation
