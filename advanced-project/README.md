@@ -24,7 +24,7 @@ I'm not going to go into much detail on what each Prometheus and Grafana file co
 ## Installation
 In this implementation we will need more resources, so I highly recommend that the minikube be started with the following resources.
 
-1. Initialize minikube
+### 1. Initialize minikube
 ```bash
 minikube start --cpus 4 --memory 8192 --vm-driver virtualbox
 ```
@@ -39,7 +39,7 @@ Vamos a empezar implementando todo el namespace de monitoring, el proceso será 
 
 We can apply all the files at the same. But I recommend doing it in the following order because we need the crds to create the Prometheus-operator and we need the operator to implement our prometheus.
 
-2. Apply all deployment files
+### 2. Apply all deployment files
 ```bash
 kubectl apply -f crds/
 kubectl apply -f prometheus-operator/
@@ -49,7 +49,7 @@ kubectl apply -f grafana/
 
 Time to verify that our monitoring namespace is running properly.
 
-3. Get the information about the namespace in which you are working. In this case monitoring. It may take a moment to deploy everything.
+### 3. Get the information about the namespace in which you are working. In this case monitoring. It may take a moment to deploy everything.
 
 ```bash
 kubectl get all -n monitoring
@@ -57,7 +57,7 @@ kubectl get all -n monitoring
 
 ![](assets/kubectl-getall-monitoring.gif)
 
-4. After making sure that our namespace monitoring is running correctly, I proceed to install the database namespace.
+### 4. After making sure that our namespace monitoring is running correctly, I proceed to install the database namespace.
 
 ```bash
 kubectl apply -f advanced-mongodb/
@@ -68,7 +68,7 @@ And we also verify that everything is up. At this moment it is likely that there
 
 After making sure that our PODs and deployments are up, we can use our NodePort to access our external service ( mongo-express ).
 
-5. Using minikube to access our NodePort.
+### 5. Using minikube to access our NodePort.
 
 ```bash
 minikube service -n database mongo-express
@@ -77,7 +77,7 @@ minikube service -n database mongo-express
 
 As you can see in the diagram, grafana does not have an external service assigned. We can create it or we can also access the service using a port-forward.
 
-6. Accessing grafana using port-forward.
+### 6. Accessing grafana using port-forward.
 
 ```bash
 kubectl port-forward -n monitoring deployment.apps/grafana 3000
@@ -99,7 +99,7 @@ b. Import the MongoDB dashboard.
 ```bash
 12594 
 ```
-7. It has been a long process. But at this moment we are already able to visualize the dashboard of our database.
+### 7. It has been a long process. But at this moment we are already able to visualize the dashboard of our database.
 
 ![](assets/mongodb-dashboard.gif)
 
