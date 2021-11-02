@@ -3,6 +3,7 @@ In the basic project we are going to set up a MongoDB environment and manage the
 
 ## Installation
 In this scenario, it is not so necessary to have so many resources, but I always start my minkube with assigned resources to know how much I have to work with.
+
 1. Initialize minikube
 ```bash
 minikube start --cpus 4 --memory 8192 --vm-driver virtualbox
@@ -20,6 +21,9 @@ I am not going to explain here how each of the files for the deployment works (c
 
 We can apply all the files at the same time using:
 
-2. `kubectl apply -f basic-mongodb/`
+1. Apply all deployment files
+```bash
+kubectl apply -f basic-mongodb/
+```
 
 ![](assets/kubectl-apply.gif)
