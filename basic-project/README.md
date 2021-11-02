@@ -2,7 +2,7 @@
 In the basic project we are going to set up a MongoDB environment and manage the database using Mongo-express.
 
 <p align="center">
-<img src=assets/basic-project-diagram.png>
+<img src=assets/basic-project-diagram1.png>
 </p>
 
 ## Installation
