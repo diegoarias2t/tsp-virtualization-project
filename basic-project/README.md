@@ -1,7 +1,6 @@
 # Basic mongodb project
 In the basic project we are going to set up a MongoDB environment and manage the database using Mongo-express.
 <p align="center">
-![](assets/basic-project-diagram.png)
 <img src=assets/basic-project-diagram.png>
 </p>
 ## Installation
