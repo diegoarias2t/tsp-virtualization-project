@@ -48,3 +48,5 @@ After making sure that our PODs and deployments are up, we can use our NodePort 
 minikube service -n database tsp-mongoexpress-service
 ```
 ![](assets/minikube-service.gif)
+
+Voilà!
