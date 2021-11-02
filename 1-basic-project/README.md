@@ -1,7 +1,3 @@
-<p align="center">
-<img src=assets/tsp-ipparis.png>
-</p>
-
 # Basic mongodb project
 > In the basic project we are going to set up a MongoDB environment and manage the database using Mongo-express.
 
