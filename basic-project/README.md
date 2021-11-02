@@ -1,7 +1,9 @@
 # Basic mongodb project
 In the basic project we are going to set up a MongoDB environment and manage the database using Mongo-express.
 
-![MongoDB and mongo-express diagram.](assets/basic-project-diagram.png)
+<p align="center">
+![](assets/basic-project-diagram.png)
+</p>
 
 ## Installation
 In this scenario, it is not so necessary to have so many resources, but I always start my minkube with assigned resources to know how much I have to work with.
