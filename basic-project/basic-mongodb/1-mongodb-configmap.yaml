@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: tsp-mongodb-configmap
+  namespace: database
+data:
+  db_url: tsp-mongodb-service
